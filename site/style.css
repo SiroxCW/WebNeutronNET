@@ -34,6 +34,7 @@ div#banner {
     white-space: nowrap;
     overflow:hidden;
     width:100%;
+    letter-spacing:5px;;
     animation:
         typing 5s steps(120),
         cursor .1s step-end infinite alternate;
@@ -170,7 +171,7 @@ div#c3 {
     text-decoration:none;
     color:white;
     font-size:15px;
-    transition:all 550ms ease;
+    transition:all 150ms ease;
 }
 
 #server {
@@ -184,18 +185,17 @@ div#c3 {
     bottom:20px;
     left:50%;
     transform:translateX(-50%);
-    transition:all 550ms ease;
+    transition:all 150ms ease;
 
 }
 
 #server:hover, #issue:hover, #issue:hover {
-    box-shadow: 0 0 15px var(--clr)
+    box-shadow: 0 0 15px var(--clr);
 }
 
 #logo {
     height:200px;
 }
-
 
 .svga {
     height:50px;
