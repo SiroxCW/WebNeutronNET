@@ -27,6 +27,24 @@ div#banner {
     
 }
 
+#banner h1 {
+    display:inline-block;
+    font-size:3em;
+    border-right: 5px none;;
+    white-space: nowrap;
+    overflow:hidden;
+    width:100%;
+    animation:
+        typing 5s steps(120),
+        cursor .1s step-end infinite alternate;
+}
+
+/* Typing effect */
+
+@keyframes typing {
+    from { width: 0 }
+}
+
 div#infos {
     color:black;
     z-index:2;
