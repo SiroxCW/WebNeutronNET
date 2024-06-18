@@ -5,6 +5,7 @@ html {
     overflow-y:visible;
     background-size:cover;
     background-image:url(assets/pic/crystal.png);
+    overflow-x:hidden;
 }
 
 body {
@@ -25,7 +26,7 @@ nav img {
 
 nav {
     height:50px;
-    background-color:#202020;
+    background-color:#202020; /* #202020*/
     position:sticky;
     top:0px;
     margin:0 0 0 0px;
