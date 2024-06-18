@@ -1,0 +1,33 @@
+.dot {
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(160,68,255);
+    background: linear-gradient(135deg, rgba(160,68,255,1) 0%, rgba(30,15,42,1) 100%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: #070A17;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Make .topnav white with half opacity and make it sticky and in the foreground*/
+nav {
+    background-color: rgba(50, 50, 50, 0.6);
+    height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Center div with id title with fixed position */
+#title {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font: 4em 'Arial';
+    transform: translate(-50%, -50%);
+}
