@@ -13,3 +13,8 @@ This is one of the NeutronNET Website versions.<br>This style is about <b>[CasaO
   * Transparent
 * On scroll animation
   * Some elements moving in and out of screen with download button and maybe projects below
+
+### Colors
+* Background: ![#070A17](https://placehold.co/15x15/070A17/070A17.png) `#f03c15`
+* Dot Gradient: ![#F03C15](https://placehold.co/15x15/A044FF/A044FF.png) `#A044FF` - ![#A044FF](https://placehold.co/15x15/1E0F2A/1E0F2A.png) `#1E0F2A`
+* Text: ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) `#FFFFFF`
