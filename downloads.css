@@ -4,7 +4,7 @@ html {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-y:visible;
     background-size:cover;
-    background-image:url(pic/crystal.png);
+    background-image:url(assets/pic/crystal.png);
 }
 
 body {

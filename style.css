@@ -12,7 +12,7 @@ html {
 }
 
 div#banner {
-    background: url("pic/bg.jpg");
+    background: url("assets/pic/bg.jpg");
     position:fixed;
     height:1000px;
     position:relative;
