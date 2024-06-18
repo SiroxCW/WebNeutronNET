@@ -26,8 +26,28 @@ nav {
 /* Center div with id title with fixed position */
 #title {
     position: fixed;
+    color: white;
+    text-align: center;
     top: 50%;
     left: 50%;
-    font: 4em 'Arial';
+    font: 2em 'Arial';
+    transform: translate(-50%, -50%);
+}
+
+#titleBtn {
+    position: fixed;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+    top: 60%;
+    background-color: blue;
+    left: 50%;
+    font: 1em 'Arial';
     transform: translate(-50%, -50%);
 }
