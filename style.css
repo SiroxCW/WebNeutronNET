@@ -8,13 +8,13 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 div#banner {
     background: url("pic/bg.jpg");
     position:fixed;
-    height:900px;
+    height:1000px;
     position:relative;
     bottom:20px;
     margin:0px;
@@ -32,7 +32,7 @@ div#infos {
     z-index:2;
     height:200px;
     position:relative;
-    bottom:36px;
+    bottom:0px;
     text-align:center;
     font-size:0;
 
@@ -80,7 +80,7 @@ p#height {
 div#c1 {
     display:inline-block;
     box-sizing:border-box;
-    height:350px;
+    height:400px;
     width:25%;
     border: #262626 solid 2px;
     background-color: #262626;
@@ -91,14 +91,14 @@ div#c1 {
     margin: 0 3.12vw 50px 0vw;
     vertical-align: bottom;
     position:relative;
-    margin-right:50px;
-    margin-left:50px;
+    margin: 50px 50px 50px 50px;
+    transition:all 550ms ease;
 }
 
 div#c2 {
     display:inline-block;
     box-sizing:border-box;
-    height:350px;
+    height:400px;
     width:25%;
     border: #262626 solid 2px;
     background-color: #FAFAFA;
@@ -107,17 +107,17 @@ div#c2 {
     background-color: #262626;
     color:white;
     min-width: 300px;
-    margin: 0 3.12vw 50px 0vw;
-    margin-left: 50px;;
     vertical-align: top;
     position:relative;
-    margin-right:50px;
+    margin: 50px 50px 50px 50px;
+    transition:all 550ms ease;
+    
 }
 
 div#c3 {
     display:inline-block;
     box-sizing:border-box;
-    height:350px;
+    height:400px;
     width:25%;
     border: #262626 solid 2px;
     background-color: #FAFAFA;
@@ -125,23 +125,23 @@ div#c3 {
     text-align:center;
     background-color: #262626;
     color:white;
-    margin: 0 3.12vw 50px 0vw;
     min-width: 300px;
-    margin-left: 50px;;
     vertical-align: top;
     position:relative;
-    margin-right:50px;
+    margin: 50px 50px 50px 50px;
+    transition:all 550ms ease;
 }
 
 #issue {
     background-color: #333333;
-    color:#666666;
+    color:white;
     text-decoration:none;
     padding: 20px 30px;
     font-size: 17px;
     border-radius:10px;
     position:absoulte;
     bottom:50px;
+    transition:all 550ms ease;
 }
 
 #c1a a {
@@ -150,13 +150,14 @@ div#c3 {
     left:50%;
     transform: translateX(-50%);
     text-decoration:none;
-    color:#666666;
+    color:white;
     font-size:15px;
+    transition:all 550ms ease;
 }
 
 #server {
     background-color: #333333;
-    color:#666666;
+    color:white;
     text-decoration:none;
     padding: 20px 30px;
     font-size: 17px;
@@ -164,8 +165,13 @@ div#c3 {
     position:absolute;
     bottom:20px;
     left:50%;
-    transform:translateX(-50%)
+    transform:translateX(-50%);
+    transition:all 550ms ease;
 
+}
+
+#server:hover, #issue:hover, #issue:hover {
+    box-shadow: 0 0 15px var(--clr)
 }
 
 #logo {
