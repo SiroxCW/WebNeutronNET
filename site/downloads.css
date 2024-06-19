@@ -34,6 +34,13 @@ nav {
     z-index:2;
 }
 
+#navcenter {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%)
+}
+
+
 #scraper {
     height:420px;
     background-color:#481071; /* 303d4b*/
@@ -275,4 +282,22 @@ nav {
     body img {
         background-repeat:repeat-y;
     }
+}
+
+
+/* Custom Scrollbar :O*/
+
+::-webkit-scrollbar {
+    color:white;
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius:5px;
+    background-color:#5a2094;
+    width:2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color:#161616;
 }
