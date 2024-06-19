@@ -1,0 +1,54 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+    background-image:linear-gradient(to right, #924DBF, #7338A0);
+    color: #797979
+}
+
+.error-page {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding:100px 100px 50px 100px;
+    text-align:center;
+    border-radius: 30px;
+    min-width:506px;
+}
+
+.error-page h1 {
+    font-size:6em;
+    margin-bottom:20px;
+    margin-top: 1px;
+    /* Gradient Text */
+    background: linear-gradient(to  bottom right, #ce9df6, #A42574);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color:transparent;
+
+}
+
+.error-page p {
+    color:black;
+}
+
+.error-page a {
+    padding:20px 30px;
+    font-size:1.2em;
+    border-radius: 12px;;
+    background: linear-gradient(to bottom right,#9f70be, #7338A0);
+    color:white; 
+    margin: 38px 15px 18px 15px;
+    text-decoration: none;    
+}
+
+@media (max-width: 1000px) {
+
+    .error-page {
+        min-width: 0;
+    }
+}
