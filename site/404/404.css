@@ -4,8 +4,10 @@ html {
     padding:0;
     box-sizing:border-box;
     outline:none;
-    background-image:linear-gradient(to right, #924DBF, #7338A0);
+    background-image:linear-gradient(to right, #6D53DC, #DB8282);
     color: #797979
+
+    /* Default gradient: 924DBF, 7338A0*/
 }
 
 .error-page {
@@ -25,10 +27,12 @@ html {
     margin-bottom:20px;
     margin-top: 1px;
     /* Gradient Text */
-    background: linear-gradient(to  bottom right, #ce9df6, #A42574);
+    background: linear-gradient(to  bottom right,#DB8282, #6D53DC);
     background-clip:text;
     -webkit-background-clip: text;
     color:transparent;
+
+    /* Default gradient: ce9df6, a42574*/
 
 }
 
