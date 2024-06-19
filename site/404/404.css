@@ -4,7 +4,7 @@ html {
     padding:0;
     box-sizing:border-box;
     outline:none;
-    background-image:linear-gradient(to right, #6D53DC, #DB8282);
+    background-image:linear-gradient(to right bottom, #6D53DC, #DB8282);
     color: #797979
 
     /* Default gradient: 924DBF, 7338A0*/
@@ -27,7 +27,7 @@ html {
     margin-bottom:20px;
     margin-top: 1px;
     /* Gradient Text */
-    background: linear-gradient(to  bottom right,#DB8282, #6D53DC);
+    background: linear-gradient(to right,#DB8282, #6D53DC);
     background-clip:text;
     -webkit-background-clip: text;
     color:transparent;
