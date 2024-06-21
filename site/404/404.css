@@ -4,7 +4,7 @@ html {
     padding:0;
     box-sizing:border-box;
     outline:none;
-    background-image:linear-gradient(to right bottom, #6D53DC, #DB8282);
+    background-image:linear-gradient(to right, #6D53DC, #DB8282);
     color: #797979
 
     /* Default gradient: 924DBF, 7338A0*/
@@ -15,8 +15,8 @@ html {
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    background-color: white;
-    padding:100px 100px 50px 100px;
+    background-color: rgba(255,255,255,1);
+    padding:120px 120px 70px 120px;
     text-align:center;
     border-radius: 30px;
     min-width:506px;
@@ -27,10 +27,11 @@ html {
     margin-bottom:20px;
     margin-top: 1px;
     /* Gradient Text */
-    background: linear-gradient(to right,#DB8282, #6D53DC);
+    background: linear-gradient(to left,#DB8282, #6D53DC);
     background-clip:text;
     -webkit-background-clip: text;
     color:transparent;
+    font-weight:700;
 
     /* Default gradient: ce9df6, a42574*/
 
@@ -44,11 +45,28 @@ html {
     padding:20px 30px;
     font-size:1.2em;
     border-radius: 12px;;
-    background: linear-gradient(to bottom right,#9f70be, #7338A0);
+    background: linear-gradient(to left,#6D53DC, #DB8282);
     color:white; 
     margin: 38px 15px 18px 15px;
     text-decoration: none;    
+    font-weight:600;
+    transition: all 500ms ease;
+    position:relative;
 }
+
+.error-page a::before {
+    content: "";
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    background: linear-gradient(to left,#6D53DC, #DB8282);
+    filter: blur(20px);
+    z-index:-1;
+}
+
+
 
 @media (max-width: 1000px) {
 
