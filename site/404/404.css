@@ -4,8 +4,9 @@ html {
     padding:0;
     box-sizing:border-box;
     outline:none;
-    background-image:linear-gradient(to right, #6D53DC, #DB8282);
-    color: #797979
+    background-image:linear-gradient(to right,  #6D53DC 0%,#895FC6 25%,#A46BAF 50%,#C07699 75%, #DB8282 100%);
+    color: #797979;
+    background-color: #6D53DC
 
     /* Default gradient: 924DBF, 7338A0*/
 }
@@ -20,6 +21,7 @@ html {
     text-align:center;
     border-radius: 30px;
     min-width:506px;
+    box-shadow: 0 0 5555px 1px #FFFFFF
 }
 
 .error-page h1 {
@@ -72,5 +74,27 @@ html {
 
     .error-page {
         min-width: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .error-page {
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 600px) {
+    .error-page {
+        min-width:0px;
+        padding: 50px 50px 50px 50px
+    }
+
+    .content {
+        width: 251px;
+    }
+
+    .error-page a {
+        margin: 0 0 0 0;
+        position:fixedM
     }
 }
