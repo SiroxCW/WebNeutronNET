@@ -71,7 +71,7 @@ html {
     z-index:-1;
 }
 
-
+/* Media Querries für dynamsiches Layout */
 
 @media (max-width: 1000px) {
 
@@ -101,6 +101,8 @@ html {
         position:fixedM
     }
 }
+
+/* Background Deco Circles */
 
 .c1 {
     display:inline-block;
